@@ -1,3 +1,6 @@
+import chromadb
+chromadb.config.clear_system_cache()
+
 import os
 import streamlit as st
 import tempfile
